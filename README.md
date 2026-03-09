@@ -1,16 +1,106 @@
-# React + Vite
+# React Book Store Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Experiment Title
 
-Currently, two official plugins are available:
+Development of a Book Store Web Application using React and Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Objective
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The objective of this experiment is to develop a simple single-page web application using React that displays a list of books and allows users to view detailed information about each book. The application demonstrates component-based architecture and client-side routing.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+* React.js
+* Vite
+* JavaScript (ES6)
+* HTML5
+* CSS3
+* React Router DOM
+* Git and GitHub
+
+---
+
+## Application Features
+
+* Home page displaying a welcome message
+* Books list page showing available books
+* Book details page showing information about a selected book
+* Navigation between pages without reloading the browser
+* Responsive card-based layout for displaying books
+
+---
+
+## Project Structure
+
+```
+bookstore
+│
+├── public
+├── src
+│   ├── components
+│   │     Navbar.jsx
+│   │     Home.jsx
+│   │     BooksList.jsx
+│   │     BookDetails.jsx
+│   │
+│   ├── data
+│   │     books.js
+│   │
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## Learning Outcomes
+
+After completing this experiment, the following learning outcomes were achieved:
+
+1. Understanding the fundamentals of **React and component-based architecture**.
+2. Learning how to create and organize **reusable React components**.
+3. Implementing **Single Page Application (SPA)** concepts using React.
+4. Understanding **client-side routing** using React Router.
+5. Managing and displaying data using **JavaScript arrays and objects**.
+6. Designing a simple and responsive **user interface using CSS**.
+7. Learning how to **set up and run a React project using Vite**.
+8. Understanding the use of **Git for version control**.
+9. Learning how to **push projects to GitHub repositories**.
+10. Gaining practical experience in building a **basic full-stack style frontend application**.
+
+---
+
+## How to Run the Project
+
+1. Install dependencies
+
+```
+npm install
+```
+
+2. Start development server
+
+```
+npm run dev
+```
+
+3. Open in browser
+
+```
+http://localhost:5173
+```
+
+---
+
+## Conclusion
+
+This experiment demonstrates the development of a simple React-based web application using Vite. It highlights the use of component-based design, client-side routing, and modern frontend development tools to create an interactive and efficient web application.
+
+---
